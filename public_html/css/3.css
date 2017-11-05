@@ -1,6 +1,6 @@
 
-@media screen and (min-width: 940px) {
-#rt{display: none;}
+@media screen and (min-width: 500px) {
+#rt{display: none;} #main_content_left{width: 100%;}#rt2{display: none;}
 #box_content{
     
      border-radius: 5px;
@@ -10,8 +10,9 @@
 box-shadow: 0px 0px 10px  #888888;
 }
 }
-@media screen and (max-width: 940px) {
- #rt{display: block;} 
+@media screen and (max-width: 920px) {
+ #rt{display: inherit;}   #main_content_left{text-align: center;}
+ #rt2{display: inherit; padding-left: 25%;}
  #box_content{
      border-radius: 5px;
     width: 98%;
