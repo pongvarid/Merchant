@@ -1,0 +1,19 @@
+
+                                #cus{   border: 1px solid #dddddd;
+                                   border-top-color: transparent;
+                                   border-right-color: black;
+                                   border-left-color: transparent;
+                                   border-bottom-color: transparent;
+                                   
+ } #cus2{   border: 1px solid #dddddd;
+                                   border-top-color: transparent;
+                                   border-right-color: transparent;
+                                   border-left-color: transparent;
+                                   border-bottom-color: transparent;}
+ .btnES{
+      font-size:60px; margin-left: 25%; width:50%; height:100%;  border: 1px solid #dddddd;
+                                   border-top-color: transparent;
+                                   border-right-color: transparent;
+                                   border-left-color: transparent;color:#555;
+                                   border-bottom-color: #555; background-color: transparent;
+ }
