@@ -38,7 +38,7 @@ and open the template in the editor.
     </head>
     <body>
 
-        <div id="main_content" class="" >
+        <div id="main_content" class="container-fluid" style="padding: 0 0;" >
             <!--- -------------NAVIGATION BAR------------------------------------------------------------>
             <header class="header" style="width: 100.5%;">
                 <nav class="navbar navbar-expand-sm navbar-light bg-faded" >
@@ -77,7 +77,7 @@ and open the template in the editor.
             <!-------------------------END OF NAVIGATIONBAR-------------------------------------->
 
             <!------------------------------BODY-------------------------------------->
-            <div class="row" style="height: 90%;">
+            <div class="row" style="width: 104%;" >
                 <!------------------------------BODY-LEFT-------------------------------------->
                 <div id="main_content_left" class="col-sm-7" >
                     <div class="container" style="width: 70%;">
@@ -165,7 +165,8 @@ and open the template in the editor.
                     <!------------------------------END OF BOX LEFT-------------------------------------->
 
                     <!------------------------------FOOTER LEFT BODY -------------------------------------->
-                    <center><br><h6 style="padding-top: 15%;">Product Listing Policy - Intellectual Property Protection - Privacy Policy - Terms of Use<br> © 1999-2017 Domain.com. All rights reserved.</h6></center>
+                    <div class="foota">       <center><br><h6 style="padding-top: 15%;">Product Listing Policy - Intellectual Property Protection - Privacy Policy - Terms of Use<br> © 1999-2017 Domain.com. All rights reserved.</h6></center>
+                    </div>
                 </div>
                 <!------------------------------END OF LEFT BODY--------------------------------------> 
 
@@ -182,7 +183,7 @@ and open the template in the editor.
                                     </label>
                                     <input type="text" class="mat-input" id="last-name">
                                 </div></div>
-                            <center><div style="width: 50%;"><button class="slide-to-click" >Slide to verify an email</button></div></center>
+                            <center><div style="width: 50%;"><button id="buttoncv" class="slide-to-click" >Slide to verify an email</button></div></center>
                             <br><br>
 
                             <div style="width: 60%;"> 
@@ -202,7 +203,7 @@ and open the template in the editor.
 
 
                             <!------------------------------ DOWNLOAD APP RIGHT BODY-------------------------------------->
-                            <div style="margin-top: 18%;">
+                            <div style="margin-top: 17.5%;">
                                 <h3>Download App Merchant Today</h3>
                                 <div class="buttons">
                                     <a href="">
@@ -220,9 +221,14 @@ and open the template in the editor.
                         </div>
                     </center>
                 </div>
-
+                
                 <!------------------------------END OF body right-------------------------------------->
             </div>
+            <div class="container footr" >
+            <div class="row ">
+                <div class="col-sm-12" > <center><br><h6 style="">Product Listing Policy - Intellectual Property Protection - Privacy Policy - Terms of Use<br> © 1999-2017 Domain.com. All rights reserved.</h6></center>
+            </div>
+            </div></div>
         </div>
 
 
@@ -242,7 +248,7 @@ and open the template in the editor.
 <script type="text/javascript">
 $('.slide-to-click').slideToClick();
 
-$('button').click(function () {
+$('#buttoncv').click(function () {
     alert('A button has been clicked');
 });
 </script>
