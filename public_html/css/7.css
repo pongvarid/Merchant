@@ -1,0 +1,48 @@
+ #cus{   border: 1px solid #dddddd;
+         
+                                   border-top-color: transparent;
+                                   border-right-color: transparent;
+                                   border-left-color: transparent;
+                                   border-bottom-color: #dddddd;
+                                   
+ }
+ 
+  .delboeder{   border: 1px solid #dddddd;
+         
+                                   border-top-color: transparent;
+                                   border-right-color: transparent;
+                                   border-left-color: transparent;
+                                   border-bottom-color: #dddddd;
+                                   
+ }
+ 
+.nav-pills > li > a.active {
+    background-color: transparent!important;
+    color: black!important;
+    border: 3px solid #dddddd;
+         
+                                   border-top-color: transparent;
+                                   border-right-color: transparent;
+                                   border-left-color: transparent;
+                                   border-bottom-color: #0062cc;
+}
+
+.nav-pills > li > a{
+    background-color: transparent!important;
+    color: black!important;
+    border: 3px solid #dddddd;
+         
+                                   border-top-color: transparent;
+                                   border-right-color: transparent;
+                                   border-left-color: transparent;
+                                   border-bottom-color: transparent;
+}
+.nav-pills{
+    position: 
+         inherit; border: 0.2px solid #dddddd;
+         
+                                   border-top-color: transparent;
+                                   border-right-color: transparent;
+                                   border-left-color: transparent;
+                                   border-bottom-color: black;
+}
