@@ -1,0 +1,39 @@
+
+.slide-to-click-slider-container {
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px 20px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #dae0e5;
+  box-shadow: 0px -3px 0px #999999;
+  color: #999999
+}
+
+.slide-to-click-slider {
+  position: absolute;
+  width: 10%;
+  top: 0px;
+  left: 2px;
+  bottom: 2px;
+  padding: 0 10px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #0069d9; 
+  border-width: 130px;
+  box-shadow: 2px 1px 5px grey;
+  color: white;
+  font-size: 26px;
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#c4c4c4', GradientType=0 ); /* IE6-9 */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
