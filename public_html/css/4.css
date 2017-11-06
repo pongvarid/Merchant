@@ -2,10 +2,11 @@
     html, body{ height: 100%; background-color: #f6f7fb;
 }
 @media screen and (min-width: 920px) {
+.ioz{width:40vh;}
 .footr{display: none;}
 }
 @media screen and (max-width: 920px) {
-    .foota{display: none;}
+    .foota{display: none;}.ioz{width:60%;}
 }
 
 
