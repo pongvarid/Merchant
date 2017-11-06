@@ -17,3 +17,13 @@
                                    border-left-color: transparent;color:#555;
                                    border-bottom-color: #555; background-color: transparent;
  }
+
+ 
+ 
+@media screen and (min-width: 500px) { #e1{
+     font-size: 16px;
+ }
+}
+@media screen and (max-width: 1199px) { #e1{
+     font-size: 8px;
+ }}
