@@ -33,139 +33,179 @@ and open the template in the editor.
     <link rel="stylesheet" href="css/2.css" id="theme-stylesheet">
     </head>
     <body>
-  
-          
-                   
-        <div id="main_content" class="" style=" ">
-            <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-faded">
-        <a class="navbar-brand" href="#"><a href="index.html" class="navbar-brand">
+   
+     <div id="main_content" class="" >
+          <!--- -------------NAVIGATION BAR------------------------------------------------------------>
+        <header class="header" style="width: 100.5%;">
+            <nav class="navbar navbar-expand-lg navbar-light bg-faded" >
+                <!--- -------------NAVBAR BAND------------------------------------------------------------>
+                <a href="index.html" class="navbar-brand" style="padding-left: 4%;">
                   <div class="brand-text brand-big"><img src="img/logo.png" /></div>
-                  <div class="brand-text brand-small"><img src="img/logo.png" /></div></a></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div id="navbarNavDropdown" class="navbar-collapse collapse">
-            <ul class="navbar-nav mr-auto">
-               
-            </ul>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/login') }}">Help</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Language
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Thai</a>
-                        <a class="dropdown-item" href="#">English</a>
-                    </div>
-                </li>
+                  <div class="brand-text brand-small"><img src="img/logo.png" /></div>
+                </a>
                 
-               
-            </ul>
-        </div>
-    </nav>
+                 <!-------------------------BUTTON WHEN RESPONSIVE-------------------------------------->
+                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                 
+                 <!-------------------------NAVBAR BODY-------------------------------------->
+                <div id="navbarNavDropdown" class="navbar-collapse collapse">
+                    <ul class="navbar-nav mr-auto">
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url('/login') }}">Help</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Language
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Thai</a>
+                                <a class="dropdown-item" href="#">English</a>
+                            </div>
+                         </li>
+                    </ul>
+                </div>
+            </nav>
       </header>
+           <!-------------------------END OF NAVIGATIONBAR-------------------------------------->
+           
+           <!------------------------------BODY-------------------------------------->
             <div class="row" style="height: 90%;">
+                <!------------------------------BODY-LEFT-------------------------------------->
               <div id="main_content_left" class="col-sm-7" >
                   <div class="container" style="width: 70%;">
-                      <center><b><h3 style="padding-top:10%;">Grow Your Business</h3></b></center>
-                      
-                      <center><div id="content_left" class="row">
-                          <div class="col-sm-4">
-                                <img id="imgx_custom" src="img/two_page/reach.jpg" alt="">
-                                <h5>REACH AEC MARKET</h5>
-                          </div>
-                          <div class="col-sm-4">
+                       <!------------------------------LEFT HEARDE-------------------------------------->
+                      <center>
+                          <b><h3 style="padding-top:10%;">Grow Your Business</h3></b>
+                      </center>
+                      <!------------------------------LEFT 3 CONTENT ICON-------------------------------------->
+                      <center>
+                          <div id="content_left" class="row">
+                            <div class="col-sm-4">
+                               <img id="imgx_custom" src="img/two_page/reach.jpg" alt="">
+                               <h5>REACH AEC MARKET</h5>
+                            </div>
+                            <div class="col-sm-4">
                               <img id="imgx_custom" src="img/two_page/merch.jpg" alt="">
                               <h5>19,500 ACTIVE MERCHANT</h5>
-                          </div>
-                          <div class="col-sm-4">
+                            </div>
+                            <div class="col-sm-4">
                               <img id="imgx_custom" src="img/two_page/analize.jpg" alt="">
                               <h5>MARKETING & DATA ANALYSIS</h5>
+                            </div>
                           </div>
-                       </div></center>
+                      </center>
                       
+                      <!------------------------------LEFT BOX CONTENT-------------------------------------->
+                      <br><br><br>
+                      <div id="box_content">
+                          
+                         <br><br> 
+                         <center><h3 id="box_head">3 Simpe Steps To Become Merchant</h3></center><br>
+                         
+                         <div class="container" style="padding-left: 20%;">
+                            <div class="media" id="box_detail">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img class="media-object" id="img_custom" src="img/two_page/mail.png" alt="...">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <p>
+                                        &nbsp;Step 1:Verify your email.<br>
+                                        &nbsp;Just few minute to verify your email before start register.
+                                    </p>
+                                </div>
+                            </div>
                       
-                  <br><br><br><div id="box_content">
-                     <br><br> <center><h3 id="box_head">3 Simpe Steps To Become Merchant</h3></center><br>
-                     <div class="container" style="padding-left: 20%;">
-                     <div class="media" id="box_detail">
-                          <div class="media-left">
-                            <a href="#">
-                                <img class="media-object" id="img_custom" src="img/two_page/mail.png" alt="...">
-                            </a>
-                          </div>
-                      <div class="media-body">
-                          <p>
-                        &nbsp;Step 1:Verify your email.<br>
-                        &nbsp;Just few minute to verify your email before start register.</p>
-                      </div>
-                    </div>
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img id="img_custom" class="media-object" src="img/two_page/write.png" alt="...">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <p> 
+                                     &nbsp;Step 2:Fill your information.<br>
+                                     &nbsp;Tell us about your business detail.
+                                    </p>
+                                </div>
+                            </div>
                       
-                        <div class="media">
-                          <div class="media-left">
-                            <a href="#">
-                                <img id="img_custom" class="media-object" src="img/two_page/write.png" alt="...">
-                            </a>
-                          </div>
-                      <div class="media-body">
-                        <p> &nbsp;Step 2:Fill your information.<br>
-                        &nbsp;Tell us about your business detail.</p>
-                      </div>
-                    </div>
-                      
-                        <div class="media">
-                          <div class="media-left">
-                            <a href="#">
-                                <img id="img_custom" class="media-object" src="img/two_page/profile.png" alt="...">
-                            </a>
-                          </div>
-                      <div class="media-body">
-                         <p> &nbsp;Step 3:Active your Account and start selling.<br>
-                        &nbsp;Active your account to manage your site on the go.</p>
-                      </div>
-                    </div><br><br><br>
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img id="img_custom" class="media-object" src="img/two_page/profile.png" alt="...">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                     <p> 
+                                        &nbsp;Step 3:Active your Account and start selling.<br>
+                                        &nbsp;Active your account to manage your site on the go.
+                                     </p>
+                                </div>
+                            </div>
+                             <br><br><br>
                     
                       </div>
                   </div>
               </div>
+                  <!------------------------------END OF BOX LEFT-------------------------------------->
+                  
+                  <!------------------------------FOOTER LEFT BODY -------------------------------------->
                   <center><br><h6 style="padding-top: 8%;">Product Listing Policy - Intellectual Property Protection - Privacy Policy - Terms of Use<br> © 1999-2017 Domain.com. All rights reserved.</h6></center>
               </div>
+                 <!------------------------------END OF LEFT BODY--------------------------------------> 
               
+                 <!----------------------------- RIGHT BODY-------------------------------------->
               <div id="main_content_right" class="col-sm-5">
+                  <center>
                   <div id="content_right">
-               <center>   <br><br><h3>Sign Up Today</h3><br>
-                   <a href="#" id="btn_head" class="btn btn-primary">Become a Merchant</a><br><br>
-                   <div style="width: 60%;"> <p> By clicking here you will be taken to our Merchant registration page. After signing up you will be able to upload your own products to sell. You can contact our Merchant Support throughout the entire process in case you require assistance. 
-                       </p></div>
-<br><br><hr>
-<br><br><h3>Already have an account ?</h3><br>
-   <a href="#"  id="btn_head" class="btn btn-primary">Login</a>
+                    <br><br>
+                    <h3>Sign Up Today</h3>
+                    <br>
+                   <a href="#" id="btn_head" class="btn btn-primary">Become a Merchant</a>
+                   <br><br>
+                   
+                   <div style="width: 60%;"> 
+                       <p> 
+                           By clicking here you will be taken to our Merchant registration page. After signing up you will be able to upload your own products to sell. You can contact our Merchant Support throughout the entire process in case you require assistance. 
+                       </p>
+                   </div>
+                   
+                    <br><br>
+                    <hr>
+                    <br><br>
+                      <!-----------------------------LOGIN RIGHT BODY----------------------------------->
+                    <h3>Already have an account ?</h3><br>
+                        <a href="#"  id="btn_head" class="btn btn-primary">Login</a>
    
-   <div style="margin-top: 31%;">
-   <h3>Download App Merchant Today</h3>
-   <div class="buttons">
-	<a href="">
-		<img src="https://getonce.com/assets/images/svg/store/appstore--en.4c7135ef.svg" alt="">
-	</a>
-	<a href="">
-		<img src="https://getonce.com/assets/images/svg/store/playstore--en.618c3ad6.svg" alt="">
-	</a>
-       
-   </div> 
+                       <!------------------------------ DOWNLOAD APP RIGHT BODY-------------------------------------->
+                        <div style="margin-top: 31%;">
+                            <h3>Download App Merchant Today</h3>
+                            <div class="buttons">
+                                <a href="">
+                                    <img src="https://getonce.com/assets/images/svg/store/appstore--en.4c7135ef.svg" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="https://getonce.com/assets/images/svg/store/playstore--en.618c3ad6.svg" alt="">
+                                </a>
+                            </div> 
    
-          <center><p>Never lose a business opportunity again when you are away from your computer </p>
-          </center>  </div>
-</div>
-   
-  </div>
-             
-  </div>
-            
-</div>
+                            <center>
+                                <p>Never lose a business opportunity again when you are away from your computer </p>
+                            </center>  
+                        </div>
+                    </div>
+              </center>
+                </div>
+                 
+                   <!------------------------------END OF body right-------------------------------------->
+            </div>
+    </div>
       
          
       
