@@ -1,6 +1,23 @@
 
     html, body{ height: 100%; background-color: #f6f7fb;
 }
+select {
+  font-family: 'FontAwesome', 'tahoma';   font-size: 17px; 
+   
+}
+.ddpx{
+    height: 25%;
+    color:#d6d8d9; 
+    margin-left: 25%;
+  
+    padding-bottom: 5%;
+    width:49%; 
+    border-bottom-color:#d6d8d9;
+    border-width:1.5px; 
+    border-top-color: transparent; 
+    border-left-color: transparent; 
+    border-right-color: transparent;
+}
 @media screen and (min-width: 920px) {
 .ioz{width:40vh;}
 .footr{display: none;}
